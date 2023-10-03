@@ -1,0 +1,9 @@
+server:
+  port: ${SERVER_PORT:8081}
+
+monegoo:
+  service:
+
+    currency: ${CURRENCY_SERVICE:localhost:8080}
+
+    notification: ${NOTIFICATION_SERVICE:localhost:8082}
